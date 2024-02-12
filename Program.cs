@@ -1,5 +1,4 @@
-﻿
-Console.WriteLine("IELTS score FOR academic ");
+﻿Console.WriteLine("IELTS score FOR academic ");
 
 Console.Write("Listening score: ");
 string listeningScoreInput = Console.ReadLine()!;
