@@ -43,16 +43,19 @@
 // Console.WriteLine("------------------------------------------------------------");
 // Console.WriteLine($"Avreage score: {averageScore}");
 // Console.WriteLine($"Candidat is {scoreCategory}");
-       
-       
-       
-       string s="LVIII";
-        int[] numbers={};
+
+
+
+using System.Collections;
+
+string s="LVIII";
+        Queue<int> numbers= new Queue<int>();
+         int summ =0;
         foreach(char c in s)
         {
         int x= c switch
                 {
-                    'I'=>3,
+                    'I'=>1,
                     'V'=>5,
                     'X'=>10,
                     'L'=>50,
@@ -61,7 +64,11 @@
                     'M'=>1000,
                     _=>0
                 };
-            numbers.Append(x);
+            numbers.Enqueue(x);
             
         }
-        return 0;
+       
+        for (int i = 0; i < numbers.Count; i++)
+        {
+            
+        }
