@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ielts_score")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e178f691de09959431c8c9575c816dfe44681ebe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bc044864edb7d4719507875f1c095b0d6441c06")]
 [assembly: System.Reflection.AssemblyProductAttribute("ielts_score")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ielts_score")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
